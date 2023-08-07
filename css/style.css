@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+header,
+#tituloIngredientes {
+
+    background: linear-gradient(90deg, rgba(232,23,23,0.9262079831932774) 43%, rgba(44,60,168,1) 100%, rgba(229,158,158,1) 100%);
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#receita {
+   
+}
+
+
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header,
+#titulo Receita| bolo de Cenoura{
+    background: linear-gradient(90deg, rgba(232,23,23,0.9262079831932774) 56%, rgba(0,0,0,0.9402135854341737) 100%, rgba(229,158,158,0.665703781512605) 100%);
+}
+
+body {
+    background: rgb(23,21,21);
+background: linear-gradient(90deg, rgba(23,21,21,0.8869922969187675) 18%, rgba(162,158,229,1) 100%, rgba(168,164,44,1) 100%);
+}
+
+#ingredientes {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#massa {
+    padding-left: 400px;
+    width: 50%;
+
+}
+
+#cobertura {
+    width: 50%;
+}
+
