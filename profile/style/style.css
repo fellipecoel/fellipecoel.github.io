@@ -372,6 +372,8 @@ footer {
   background: black;
 }
 
+
+/* Estilos para telas menores */
 @media screen and (max-width: 480px) {
   .apresentacao {
     flex-direction: column;
@@ -380,12 +382,6 @@ footer {
   .left img {
     margin-bottom: 14px;
   }
-
-  form {
-    max-width: 100%;
-  }
-
-
 
   .right {
     text-align: center;
@@ -397,78 +393,78 @@ footer {
 
   .containerSobreMim .left {
     width: 75%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 
   .containerSobreMim .right {
     width: 75%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .containerServicos {
     flex-direction: column;
   }
 
-.containerServicos h2 {
-  color: white;
-  font-size: 10px;
+  .containerServicos h2 {
+    font-size: 16px;
+  }
+
+  .itemServico1,
+  .itemServico2,
+  .itemServico3,
+  .itemServico4,
+  .itemServico5,
+  .itemServico6,
+  .itemServico7,
+  .itemServico8 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #servicos h3 {
+    font-size: 15px;
+  }
+
+  .displayContato {
+    flex-direction: column;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 90%;
+  }
+
+
+  textarea,
+  input {
+    width: 100%;
+  }
+
+  .dados {
+    width: 80%;
+  }
+
+  .mensagem {
+    width: 80%;
+    margin-left: 0px;
+  }
+
+
+  .mapa iframe {
+    width: 100%;
+    height: auto;
+  }
+
+
 }
-
-.itemServico1,
-.itemServico2,
-.itemServico3,
-.itemServico4,
-.itemServico5,
-.itemServico6,
-.itemServico7,
-.itemServico8 {
-  width: 79%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#servicos h3 {
-  font-size: 15px; 
-}
-
-.displayContato {
-  flex-direction: column;
-}
-
-.textarea {
-  width: 200px;
-}
-
-
-.textarea,input {
-  width: 90%;
-}
-
-.dados {
-  width: 80%;
-}
-
-.mensagem {
-  width: 80px;
- margin-left: 0px;
-}
-.mapa {
-  margin-left: -30px;
-  margin-top: 80px;
-  width: 80%;
-}
-
-.mapa iframe {
-  width: 90%;
-  height: auto;
-}
-
-
-}
-
-
-
-
 
 
 
@@ -480,7 +476,6 @@ footer {
 
 
 @media (min-width: 481px) and (max-width: 768px) {
-
   .apresentacao {
     flex-direction: column;
   }
@@ -499,8 +494,8 @@ footer {
 
   .containerSobreMim .left {
     width: 75%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 
   .containerSobreMim .right {
@@ -509,11 +504,63 @@ footer {
     margin-left: auto;
   }
 
-  .displayContato{
+  .containerServicos {
     flex-direction: column;
-    
   }
 
-  
-}
+  .containerServicos h2 {
+    font-size: 16px;
+  }
 
+  .itemServico1,
+  .itemServico2,
+  .itemServico3,
+  .itemServico4,
+  .itemServico5,
+  .itemServico6,
+  .itemServico7,
+  .itemServico8 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #servicos h3 {
+    font-size: 15px;
+  }
+
+  .displayContato {
+    flex-direction: column;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+
+  textarea,
+  input {
+    width: 100%;
+  }
+
+  .dados {
+    width: 80%;
+  }
+
+  .mensagem {
+    width: 80%;
+    margin-left: 0px;
+  }
+
+
+  .mapa iframe {
+    width: 100%;
+    height: auto;
+  }
+}
